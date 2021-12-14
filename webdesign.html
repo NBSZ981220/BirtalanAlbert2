@@ -1,0 +1,350 @@
+<html>
+<head>
+<title>Albert's Coffee Bar</title>
+<meta charset="UTF-8">
+<meta name="author" content="BIRTALAN ALBERT"
+<meta name="description" content="ALBERT'S PAGE"
+<meta name="keywords" content="Albert, coffee, bar">
+<style>
+.navigation	img {height: 200px; margin-left: 43%; margin-top: 25px}
+.navigation h1 {text-align: center; font-family: arial; font-size: 60px; background-color: rgb(250, 235, 215,0.8);}
+.menubar li {margin: 121px; align: center; display: inline; font-family: arial; font-size: 25px; font-weight: bold;}
+.footer {background-color: saddlebrown; padding: 20px;}
+.copyright {font-weight: bold; font-family: arial;}
+.contact {font-weight: bold; font-family: arial;}
+.data1 {display:block; font-family: arial}
+.data2 {display: block; font-family: arial}
+.footer img {height: 25px}
+.menufooter {background-color: saddlebrown; padding-bottom: 10px; padding-top: 15px; padding-left: 3px; padding-right: 3px;}
+.section {background-position: center; background-color: rgb(250, 235, 215,0.8);font-family: arial;padding-bottom: 20px; padding-top: 15px; text-align: center}
+.section img {height: 400; margin-left: 0%}
+.section h2 {font-size: 40; color: saddlebrown} p1 {font-size: 22}
+.section h3 {font-size: 35; color: saddlebrown} p2 {font-size: 18}
+body {background-image: url("coffee.jpg"); background-position: bottom;}
+</style>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(250, 235, 215, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: saddlebrown;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: saddlebrown;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: black;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="webdesign.html">HOME</a>
+  <a href="features.html">FEATURES</a>
+  <a href="staff.html">STAFF</a>
+  <a href="media.html">MEDIA</a>
+  <a href="map.html">MAP</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<body>
+	<header class="navigation">
+	<a href="file:///Users/birtalanalbi/Documents/MESTERI/WEBDESIGN/webdesign.html" title="Freepik">
+	<img src="logo.png" class="img"></a>
+	<h1 style="color: saddlebrown";>Albert's Coffee Bar</h1>
+	<ul style="color:#f5f5dc"; class="menubar">
+		<menufooter class="menufooter">
+	<li><a href="features.html" style="color: white";>FEATURES</a></li>
+	<li><a href="staff.html" style="color: white";>STAFF</a></li>
+	<li><a href="media.html" style="color: white";>MEDIA</a></li>
+	<li><a href="map.html" style="color: white";>MAP</a></li>
+		</menufooter>
+  </a>
+	</ul>
+
+
+	<main>
+		<section class=section>
+			<h2>WHO WE ARE?</h2>
+			<p1>We have a brew for every time of day. Coffeebar serves more than just a great cup of coffee. We are a radically café experience, serving every life situations. We are dedicated to local producers and artisans, and driven by our staff, customers, and community. We tell the story from the origin of the bean to its final destination, in your cup. We cultivate strong relationships with our local and global partners - from farmers to suppliers to roasters - to the baristas whose craft turns your drink into art.</p1>
+			<article>
+			</article>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+	max-width: 650px;
+	position: relative;
+	margin: auto;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: saddlebrown;
+}
+
+.text {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: black 4px 4px 4px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+	<img src="img1.jpg" style="width:100%">
+	<div class="text">Cake with tea</div>
+</div>
+
+<div class="mySlides fade">
+	<img src="img2.jpg" style="width:100%">
+	<div class="text">Better with coffee</div>
+</div>
+
+<div class="mySlides fade">
+	<img src="img3.jpg" style="width:100%">
+	<div class="text">Coffee beans from Italy</div>
+</div>
+
+<div class="mySlides fade">
+	<img src="img4.jpg" style="width:100%">
+	<div class="text">Try our offers</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+	showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+	showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	if (n > slides.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = slides.length}
+	for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+	}
+	for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";
+	dots[slideIndex-1].className += " active";
+}
+</script>
+
+<article>
+</article>
+
+<p> </p>
+
+<article>
+</article>
+
+			<h3>MENU</h3>
+			<p2>Espresso for a breakup 50 ml (coffee, water)</p2>
+			<article>
+			</article>
+			<p2>Espresso for uncertains 80 ml (long coffee, water)</p2>
+			<article>
+			</article>
+			<p2>Espresso italiano 100 ml (italian coffee, water, milk)</p2>
+			<article>
+			</article>
+			<p2>Flat white 150 ml (coffee, water, milk)</p2>
+			<article>
+			</article>
+			<p2>Cinderella 150 ml (coffee, water, milk, colored cake crumbs)</p2>
+			<article>
+			</article>
+			<p2>Spicy Pumpkin 'Tomachino' 150 ml (coffee, water, milk, pumpkin flavour)</p2>
+			<article>
+			</article>
+			<p2>Peanut monster 200 ml (coffee, water, milk, peanut flavour, ground hazelnuts)</p2>
+			<article>
+			</article>
+			<p2>Sour cream light 150 ml (coffee, water, milk, light sour cream)</p2>
+			<article>
+			</article>
+			<p2>Fat sir by sour 200 ml (coffee, water, milk, sugared sour cream)</p2>
+			<article>
+			</article>
+			<p2>Lovers delight 200 ml (coffee, water, milk, strawberry flavour)</p2>
+
+		</section>
+
+
+	</header>
+
+	<footer class="footer">
+	<p class="copyright" style= "color:#f5f5dc;">Copyright © Birtalan Albert 2021</p>
+	<p1 class="contact" style= "color:#f5f5dc;">CONTACT</p1>
+	<p2 class="data1" style= "color:#f5f5dc;">Phone number: +40 770 481 130</p2>
+	<p3 class="data2" style= "color:#f5f5dc;">E-mail: birtalanalbi@yahoo.com</p3>
+	<a href="https://www.facebook.com" title="facebookicon">
+	<img src="facebookicon.png" class="img"></a>
+	<a href="https://www.instagram.com" title="instagramicon">
+	<img src="instagramicon.png" class="img"></a>
+	</footer>
+
+</body>
+</html>
